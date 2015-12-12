@@ -15,9 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var enemyHealthPoints: UILabel!
     @IBOutlet weak var enemyImage: UIImageView!
     @IBOutlet weak var chestButton: UIButton!
+    @IBOutlet weak var attackButton: UIButton!
 
     var player: Player!
     var enemy: Enemy!
+    
+    var dropMessage: String
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +33,31 @@ class ViewController: UIViewController {
         updateHealthPoints()
     }
 
+    @IBAction func attackButtonTapped(sender: AnyObject) {
+        if enemy.attemptAttack(player.attackPower) {
+            printLabel.text = "Attacked \(enemy.type) for \(player.attackPower) HP"
+        } else {
+            printLabel.text = "Attack was unsuccessful"
+        }
+        
+        if let loot = enemy.dropLoot() {
+            dropMessage = "\(player.name) found \(loot)"
+            chestButton.hidden = false
+        }
+        
+        updateHealthPoints()
+        
+        if !enemy.isAlive {
+            enemyHealthPoints.text = ""
+            printLabel.text = "Defeated \(enemy.type)"
+            enemyImage.hidden = true
+        }
+    }
+    
+    @IBAction func chestTapped(sender: AnyObject) {
+        
+    }
+    
     // MARK: Helper functions
     func generateRandomEnemy() {
         let randomNumber = Int(arc4random_uniform(UInt32(2)))

@@ -35,6 +35,9 @@
                                     <constraint firstAttribute="width" secondItem="lOu-uy-hgh" secondAttribute="height" multiplier="393:440" id="Wvl-Py-g0f"/>
                                 </constraints>
                                 <state key="normal" image="chest"/>
+                                <connections>
+                                    <action selector="chestTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="74m-ER-6ie"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="6Ya-e7-Jtx">
                                 <rect key="frame" x="130" y="298" width="140" height="187"/>
@@ -72,6 +75,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="260" verticalHuggingPriority="260" horizontalCompressionResistancePriority="740" verticalCompressionResistancePriority="740" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tim-Se-Qfk">
+                                <rect key="frame" x="252" y="483" width="97" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Tim-Se-Qfk" secondAttribute="height" multiplier="198:223" id="EFb-7Z-ip9"/>
+                                </constraints>
+                                <state key="normal" image="attack"/>
+                                <connections>
+                                    <action selector="attackButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8n1-cz-E4q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -94,9 +107,11 @@
                             <constraint firstItem="b35-Lb-JjI" firstAttribute="width" secondItem="xfG-0i-ejU" secondAttribute="width" multiplier="9:10" id="SXr-f1-3sn"/>
                             <constraint firstItem="b35-Lb-JjI" firstAttribute="height" relation="lessThanOrEqual" secondItem="xfG-0i-ejU" secondAttribute="height" multiplier="1:3" id="T5j-9o-HQC"/>
                             <constraint firstItem="xfG-0i-ejU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TIh-nh-GPn"/>
+                            <constraint firstItem="Tim-Se-Qfk" firstAttribute="height" relation="lessThanOrEqual" secondItem="Ndc-xM-Pts" secondAttribute="height" multiplier="2:3" id="VeQ-Nz-2xU"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="xfG-0i-ejU" secondAttribute="trailing" id="Xef-ub-sAV"/>
                             <constraint firstItem="xfG-0i-ejU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Y1s-rR-gxe"/>
                             <constraint firstItem="6Ya-e7-Jtx" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="Y5b-kR-0ee"/>
+                            <constraint firstItem="Tim-Se-Qfk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zc7-gy-ktc"/>
                             <constraint firstItem="6Ya-e7-Jtx" firstAttribute="top" secondItem="FML-bu-rcQ" secondAttribute="bottom" constant="8" symbolic="YES" id="aFX-tC-T30"/>
                             <constraint firstItem="lOu-uy-hgh" firstAttribute="centerX" secondItem="nIB-9y-fPA" secondAttribute="centerX" id="ces-oG-rRQ"/>
                             <constraint firstItem="lOu-uy-hgh" firstAttribute="height" secondItem="nIB-9y-fPA" secondAttribute="height" multiplier="2:3" id="cht-mS-tta"/>
@@ -108,6 +123,7 @@
                             <constraint firstItem="Ndc-xM-Pts" firstAttribute="top" secondItem="6Ya-e7-Jtx" secondAttribute="bottom" id="svh-Ya-6CZ"/>
                             <constraint firstItem="nIB-9y-fPA" firstAttribute="height" secondItem="6Ya-e7-Jtx" secondAttribute="height" id="tuJ-mH-L8c"/>
                             <constraint firstItem="bmR-RP-glH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uVE-OL-ht4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tim-Se-Qfk" secondAttribute="bottom" constant="8" id="vXG-q9-xFU"/>
                             <constraint firstItem="eS9-9G-2Me" firstAttribute="leading" secondItem="nIB-9y-fPA" secondAttribute="leading" id="xaP-lM-ZoR"/>
                             <constraint firstItem="FML-bu-rcQ" firstAttribute="trailing" secondItem="6Ya-e7-Jtx" secondAttribute="trailing" id="z3I-AX-Qj4"/>
                         </constraints>
@@ -118,6 +134,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="attackButton" destination="Tim-Se-Qfk" id="AOA-SF-aaL"/>
                         <outlet property="chestButton" destination="lOu-uy-hgh" id="yWM-I9-stz"/>
                         <outlet property="enemyHealthPoints" destination="eS9-9G-2Me" id="bjx-G0-fcP"/>
                         <outlet property="enemyImage" destination="nIB-9y-fPA" id="EFL-Lb-YAx"/>
@@ -127,9 +144,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="310" y="462"/>
         </scene>
     </scenes>
     <resources>
+        <image name="attack" width="99" height="111"/>
         <image name="background" width="768" height="1024"/>
         <image name="chest" width="393" height="440"/>
         <image name="enemy1" width="574" height="487"/>
