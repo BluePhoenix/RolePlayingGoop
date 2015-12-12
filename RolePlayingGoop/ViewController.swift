@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var player: Player!
     var enemy: Enemy!
     
-    var dropMessage: String
+    var dropMessage: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,12 +70,18 @@ class ViewController: UIViewController {
         default:
             enemy = FiendishWizard(startingHealthPoints: 60, startingAttackPower: 15)
         }
+        enemyImage.hidden = false
         updateHealthPoints()
     }
     
     func updateHealthPoints() {
-        playerHealthPoints.text = "\(player.healthPoints) HP"
-        enemyHealthPoints.text = "\(enemy.healthPoints) HP"
+        if let player = self.player {
+            playerHealthPoints.text = "\(player.healthPoints) HP"
+        }
+
+        if let enemy = self.enemy {
+            enemyHealthPoints.text = "\(enemy.healthPoints) HP"
+        }
     }
 
 }
