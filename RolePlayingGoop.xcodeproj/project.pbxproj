@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7EDC451C1C96E600DF736D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDC441C1C96E600DF736D /* Character.swift */; };
 		CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73E1C1BE579003CC315 /* AppDelegate.swift */; };
 		CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7401C1BE579003CC315 /* ViewController.swift */; };
 		CE90C7441C1BE579003CC315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7421C1BE579003CC315 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7EDC441C1C96E600DF736D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		CE90C73B1C1BE579003CC315 /* RolePlayingGoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlayingGoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90C73E1C1BE579003CC315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE90C7401C1BE579003CC315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				CE90C74A1C1BE579003CC315 /* LaunchScreen.storyboard */,
 				CE90C74D1C1BE579003CC315 /* Info.plist */,
 				CE90C7451C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld */,
+				CE7EDC441C1C96E600DF736D /* Character.swift */,
 			);
 			path = RolePlayingGoop;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */,
 				CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */,
 				CE90C7471C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld in Sources */,
+				CE7EDC451C1C96E600DF736D /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				CE90C7681C1BE57A003CC315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE90C7691C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				CE90C76B1C1BE57A003CC315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE90C76C1C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				CE90C76E1C1BE57A003CC315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
