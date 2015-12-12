@@ -23,6 +23,19 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="bmR-RP-glH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1024"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="Ndc-xM-Pts">
+                                <rect key="frame" x="-84" y="485" width="768" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ndc-xM-Pts" secondAttribute="height" multiplier="768:164" id="CY6-Qy-zey"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-uy-hgh">
+                                <rect key="frame" x="345" y="360" width="111" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lOu-uy-hgh" secondAttribute="height" multiplier="393:440" id="Wvl-Py-g0f"/>
+                                </constraints>
+                                <state key="normal" image="chest"/>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="6Ya-e7-Jtx">
                                 <rect key="frame" x="130" y="298" width="140" height="187"/>
                                 <constraints>
@@ -59,12 +72,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="Ndc-xM-Pts">
-                                <rect key="frame" x="-84" y="485" width="768" height="164"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Ndc-xM-Pts" secondAttribute="height" multiplier="768:164" id="CY6-Qy-zey"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -72,6 +79,7 @@
                             <constraint firstItem="Ndc-xM-Pts" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:5" priority="750" id="2m1-OF-Wqz"/>
                             <constraint firstItem="nIB-9y-fPA" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="39Q-5d-Adt"/>
                             <constraint firstItem="eS9-9G-2Me" firstAttribute="baseline" secondItem="FML-bu-rcQ" secondAttribute="baseline" id="60i-km-JHe"/>
+                            <constraint firstItem="lOu-uy-hgh" firstAttribute="bottom" secondItem="nIB-9y-fPA" secondAttribute="bottom" id="7wJ-Qj-EGW"/>
                             <constraint firstItem="b35-Lb-JjI" firstAttribute="centerY" secondItem="xfG-0i-ejU" secondAttribute="centerY" id="9eQ-12-LZ6"/>
                             <constraint firstAttribute="trailing" secondItem="bmR-RP-glH" secondAttribute="trailing" id="BYB-ze-RIN"/>
                             <constraint firstItem="b35-Lb-JjI" firstAttribute="centerX" secondItem="xfG-0i-ejU" secondAttribute="centerX" id="CDm-II-SEk"/>
@@ -90,6 +98,8 @@
                             <constraint firstItem="xfG-0i-ejU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Y1s-rR-gxe"/>
                             <constraint firstItem="6Ya-e7-Jtx" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="Y5b-kR-0ee"/>
                             <constraint firstItem="6Ya-e7-Jtx" firstAttribute="top" secondItem="FML-bu-rcQ" secondAttribute="bottom" constant="8" symbolic="YES" id="aFX-tC-T30"/>
+                            <constraint firstItem="lOu-uy-hgh" firstAttribute="centerX" secondItem="nIB-9y-fPA" secondAttribute="centerX" id="ces-oG-rRQ"/>
+                            <constraint firstItem="lOu-uy-hgh" firstAttribute="height" secondItem="nIB-9y-fPA" secondAttribute="height" multiplier="2:3" id="cht-mS-tta"/>
                             <constraint firstItem="6Ya-e7-Jtx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="2:3" id="evO-sM-uT0"/>
                             <constraint firstItem="nIB-9y-fPA" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="jts-8E-4Pl"/>
                             <constraint firstItem="Ndc-xM-Pts" firstAttribute="width" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kd1-wn-0Nh"/>
@@ -114,6 +124,7 @@
     </scenes>
     <resources>
         <image name="background" width="768" height="1024"/>
+        <image name="chest" width="393" height="440"/>
         <image name="enemy1" width="574" height="487"/>
         <image name="ground" width="768" height="164"/>
         <image name="player" width="356" height="475"/>
