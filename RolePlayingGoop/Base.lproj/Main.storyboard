@@ -117,6 +117,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="chestButton" destination="lOu-uy-hgh" id="yWM-I9-stz"/>
+                        <outlet property="enemyHealthPoints" destination="eS9-9G-2Me" id="bjx-G0-fcP"/>
+                        <outlet property="enemyImage" destination="nIB-9y-fPA" id="EFL-Lb-YAx"/>
+                        <outlet property="playerHealthPoints" destination="FML-bu-rcQ" id="2qO-AZ-PfS"/>
+                        <outlet property="printLabel" destination="b35-Lb-JjI" id="ODl-CY-CgU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
