@@ -9,6 +9,7 @@
 import Foundation
 
 class Character {
+    private var _name: String = "Character"
     private var _healthPoints: Int = 100
     private var _attackPower: Int = 10
     
@@ -27,6 +28,12 @@ class Character {
     var isAlive: Bool {
         get {
             return (healthPoints > 0)
+        }
+    }
+    
+    var name: String {
+        get {
+            return _name
         }
     }
     
