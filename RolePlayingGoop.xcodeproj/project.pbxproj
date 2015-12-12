@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73E1C1BE579003CC315 /* AppDelegate.swift */; };
+		CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7401C1BE579003CC315 /* ViewController.swift */; };
+		CE90C7441C1BE579003CC315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7421C1BE579003CC315 /* Main.storyboard */; };
+		CE90C7471C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7451C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld */; };
+		CE90C7491C1BE579003CC315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7481C1BE579003CC315 /* Assets.xcassets */; };
+		CE90C74C1C1BE579003CC315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C74A1C1BE579003CC315 /* LaunchScreen.storyboard */; };
+		CE90C7571C1BE57A003CC315 /* RolePlayingGoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7561C1BE57A003CC315 /* RolePlayingGoopTests.swift */; };
+		CE90C7621C1BE57A003CC315 /* RolePlayingGoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7611C1BE57A003CC315 /* RolePlayingGoopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE90C7531C1BE57A003CC315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE90C7331C1BE579003CC315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE90C73A1C1BE579003CC315;
+			remoteInfo = RolePlayingGoop;
+		};
+		CE90C75E1C1BE57A003CC315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE90C7331C1BE579003CC315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE90C73A1C1BE579003CC315;
+			remoteInfo = RolePlayingGoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE90C73B1C1BE579003CC315 /* RolePlayingGoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlayingGoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE90C73E1C1BE579003CC315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE90C7401C1BE579003CC315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE90C7431C1BE579003CC315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE90C7461C1BE579003CC315 /* RolePlayingGoop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RolePlayingGoop.xcdatamodel; sourceTree = "<group>"; };
+		CE90C7481C1BE579003CC315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE90C74B1C1BE579003CC315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE90C74D1C1BE579003CC315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90C7521C1BE57A003CC315 /* RolePlayingGoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolePlayingGoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE90C7561C1BE57A003CC315 /* RolePlayingGoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePlayingGoopTests.swift; sourceTree = "<group>"; };
+		CE90C7581C1BE57A003CC315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90C75D1C1BE57A003CC315 /* RolePlayingGoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolePlayingGoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE90C7611C1BE57A003CC315 /* RolePlayingGoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePlayingGoopUITests.swift; sourceTree = "<group>"; };
+		CE90C7631C1BE57A003CC315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE90C7381C1BE579003CC315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C74F1C1BE57A003CC315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C75A1C1BE57A003CC315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE90C7321C1BE579003CC315 = {
+			isa = PBXGroup;
+			children = (
+				CE90C73D1C1BE579003CC315 /* RolePlayingGoop */,
+				CE90C7551C1BE57A003CC315 /* RolePlayingGoopTests */,
+				CE90C7601C1BE57A003CC315 /* RolePlayingGoopUITests */,
+				CE90C73C1C1BE579003CC315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE90C73C1C1BE579003CC315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE90C73B1C1BE579003CC315 /* RolePlayingGoop.app */,
+				CE90C7521C1BE57A003CC315 /* RolePlayingGoopTests.xctest */,
+				CE90C75D1C1BE57A003CC315 /* RolePlayingGoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE90C73D1C1BE579003CC315 /* RolePlayingGoop */ = {
+			isa = PBXGroup;
+			children = (
+				CE90C73E1C1BE579003CC315 /* AppDelegate.swift */,
+				CE90C7401C1BE579003CC315 /* ViewController.swift */,
+				CE90C7421C1BE579003CC315 /* Main.storyboard */,
+				CE90C7481C1BE579003CC315 /* Assets.xcassets */,
+				CE90C74A1C1BE579003CC315 /* LaunchScreen.storyboard */,
+				CE90C74D1C1BE579003CC315 /* Info.plist */,
+				CE90C7451C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld */,
+			);
+			path = RolePlayingGoop;
+			sourceTree = "<group>";
+		};
+		CE90C7551C1BE57A003CC315 /* RolePlayingGoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE90C7561C1BE57A003CC315 /* RolePlayingGoopTests.swift */,
+				CE90C7581C1BE57A003CC315 /* Info.plist */,
+			);
+			path = RolePlayingGoopTests;
+			sourceTree = "<group>";
+		};
+		CE90C7601C1BE57A003CC315 /* RolePlayingGoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE90C7611C1BE57A003CC315 /* RolePlayingGoopUITests.swift */,
+				CE90C7631C1BE57A003CC315 /* Info.plist */,
+			);
+			path = RolePlayingGoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE90C73A1C1BE579003CC315 /* RolePlayingGoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE90C7661C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoop" */;
+			buildPhases = (
+				CE90C7371C1BE579003CC315 /* Sources */,
+				CE90C7381C1BE579003CC315 /* Frameworks */,
+				CE90C7391C1BE579003CC315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RolePlayingGoop;
+			productName = RolePlayingGoop;
+			productReference = CE90C73B1C1BE579003CC315 /* RolePlayingGoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE90C7511C1BE57A003CC315 /* RolePlayingGoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE90C7691C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopTests" */;
+			buildPhases = (
+				CE90C74E1C1BE57A003CC315 /* Sources */,
+				CE90C74F1C1BE57A003CC315 /* Frameworks */,
+				CE90C7501C1BE57A003CC315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE90C7541C1BE57A003CC315 /* PBXTargetDependency */,
+			);
+			name = RolePlayingGoopTests;
+			productName = RolePlayingGoopTests;
+			productReference = CE90C7521C1BE57A003CC315 /* RolePlayingGoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE90C75C1C1BE57A003CC315 /* RolePlayingGoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE90C76C1C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopUITests" */;
+			buildPhases = (
+				CE90C7591C1BE57A003CC315 /* Sources */,
+				CE90C75A1C1BE57A003CC315 /* Frameworks */,
+				CE90C75B1C1BE57A003CC315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE90C75F1C1BE57A003CC315 /* PBXTargetDependency */,
+			);
+			name = RolePlayingGoopUITests;
+			productName = RolePlayingGoopUITests;
+			productReference = CE90C75D1C1BE57A003CC315 /* RolePlayingGoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE90C7331C1BE579003CC315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bits That Matter";
+				TargetAttributes = {
+					CE90C73A1C1BE579003CC315 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CE90C7511C1BE57A003CC315 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CE90C73A1C1BE579003CC315;
+					};
+					CE90C75C1C1BE57A003CC315 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CE90C73A1C1BE579003CC315;
+					};
+				};
+			};
+			buildConfigurationList = CE90C7361C1BE579003CC315 /* Build configuration list for PBXProject "RolePlayingGoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE90C7321C1BE579003CC315;
+			productRefGroup = CE90C73C1C1BE579003CC315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE90C73A1C1BE579003CC315 /* RolePlayingGoop */,
+				CE90C7511C1BE57A003CC315 /* RolePlayingGoopTests */,
+				CE90C75C1C1BE57A003CC315 /* RolePlayingGoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE90C7391C1BE579003CC315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90C74C1C1BE579003CC315 /* LaunchScreen.storyboard in Resources */,
+				CE90C7491C1BE579003CC315 /* Assets.xcassets in Resources */,
+				CE90C7441C1BE579003CC315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C7501C1BE57A003CC315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C75B1C1BE57A003CC315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE90C7371C1BE579003CC315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */,
+				CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */,
+				CE90C7471C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C74E1C1BE57A003CC315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90C7571C1BE57A003CC315 /* RolePlayingGoopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE90C7591C1BE57A003CC315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90C7621C1BE57A003CC315 /* RolePlayingGoopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE90C7541C1BE57A003CC315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE90C73A1C1BE579003CC315 /* RolePlayingGoop */;
+			targetProxy = CE90C7531C1BE57A003CC315 /* PBXContainerItemProxy */;
+		};
+		CE90C75F1C1BE57A003CC315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE90C73A1C1BE579003CC315 /* RolePlayingGoop */;
+			targetProxy = CE90C75E1C1BE57A003CC315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE90C7421C1BE579003CC315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE90C7431C1BE579003CC315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE90C74A1C1BE579003CC315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE90C74B1C1BE579003CC315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE90C7641C1BE57A003CC315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE90C7651C1BE57A003CC315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE90C7671C1BE57A003CC315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RolePlayingGoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE90C7681C1BE57A003CC315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RolePlayingGoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE90C76A1C1BE57A003CC315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RolePlayingGoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolePlayingGoop.app/RolePlayingGoop";
+			};
+			name = Debug;
+		};
+		CE90C76B1C1BE57A003CC315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RolePlayingGoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolePlayingGoop.app/RolePlayingGoop";
+			};
+			name = Release;
+		};
+		CE90C76D1C1BE57A003CC315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RolePlayingGoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolePlayingGoop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE90C76E1C1BE57A003CC315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RolePlayingGoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BitsThatMatter.RolePlayingGoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RolePlayingGoop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE90C7361C1BE579003CC315 /* Build configuration list for PBXProject "RolePlayingGoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE90C7641C1BE57A003CC315 /* Debug */,
+				CE90C7651C1BE57A003CC315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE90C7661C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE90C7671C1BE57A003CC315 /* Debug */,
+				CE90C7681C1BE57A003CC315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE90C7691C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE90C76A1C1BE57A003CC315 /* Debug */,
+				CE90C76B1C1BE57A003CC315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE90C76C1C1BE57A003CC315 /* Build configuration list for PBXNativeTarget "RolePlayingGoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE90C76D1C1BE57A003CC315 /* Debug */,
+				CE90C76E1C1BE57A003CC315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE90C7451C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE90C7461C1BE579003CC315 /* RolePlayingGoop.xcdatamodel */,
+			);
+			currentVersion = CE90C7461C1BE579003CC315 /* RolePlayingGoop.xcdatamodel */;
+			path = RolePlayingGoop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE90C7331C1BE579003CC315 /* Project object */;
+}
