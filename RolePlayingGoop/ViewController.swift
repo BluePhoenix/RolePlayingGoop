@@ -27,10 +27,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         player = Player(name: "Dirty Laundry", startingHealthPoints: 110, startingAttackPower: 20)
+        updateHealthPoints()
         
         generateRandomEnemy()
 
-        updateHealthPoints()
     }
 
     @IBAction func attackButtonTapped(sender: AnyObject) {
@@ -55,7 +55,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func chestTapped(sender: AnyObject) {
-        
+        chestButton.hidden = true
+        printLabel.text = dropMessage
+        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateRandomEnemy", userInfo: nil, repeats: false)
     }
     
     // MARK: Helper functions
@@ -68,9 +70,12 @@ class ViewController: UIViewController {
         default:
             enemy = FiendishWizard(startingHealthPoints: 60, startingAttackPower: 15)
         }
+        updateHealthPoints()
     }
+    
     func updateHealthPoints() {
         playerHealthPoints.text = "\(player.healthPoints) HP"
+        enemyHealthPoints.text = "\(enemy.healthPoints) HP"
     }
 
 }
