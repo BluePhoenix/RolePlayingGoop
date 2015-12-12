@@ -11,6 +11,7 @@
 		CE7EDC471C1C983100DF736D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDC461C1C983100DF736D /* Player.swift */; };
 		CE7EDC491C1C994600DF736D /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDC481C1C994600DF736D /* Enemy.swift */; };
 		CE7EDC4B1C1C9AA600DF736D /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDC4A1C1C9AA600DF736D /* Kimara.swift */; };
+		CE7EDC4D1C1C9B4B00DF736D /* FiendishWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EDC4C1C1C9B4B00DF736D /* FiendishWizard.swift */; };
 		CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C73E1C1BE579003CC315 /* AppDelegate.swift */; };
 		CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90C7401C1BE579003CC315 /* ViewController.swift */; };
 		CE90C7441C1BE579003CC315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C7421C1BE579003CC315 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		CE7EDC461C1C983100DF736D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CE7EDC481C1C994600DF736D /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		CE7EDC4A1C1C9AA600DF736D /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		CE7EDC4C1C1C9B4B00DF736D /* FiendishWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiendishWizard.swift; sourceTree = "<group>"; };
 		CE90C73B1C1BE579003CC315 /* RolePlayingGoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolePlayingGoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90C73E1C1BE579003CC315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE90C7401C1BE579003CC315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				CE7EDC461C1C983100DF736D /* Player.swift */,
 				CE7EDC481C1C994600DF736D /* Enemy.swift */,
 				CE7EDC4A1C1C9AA600DF736D /* Kimara.swift */,
+				CE7EDC4C1C1C9B4B00DF736D /* FiendishWizard.swift */,
 			);
 			path = RolePlayingGoop;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				CE90C7411C1BE579003CC315 /* ViewController.swift in Sources */,
 				CE90C73F1C1BE579003CC315 /* AppDelegate.swift in Sources */,
+				CE7EDC4D1C1C9B4B00DF736D /* FiendishWizard.swift in Sources */,
 				CE7EDC491C1C994600DF736D /* Enemy.swift in Sources */,
 				CE90C7471C1BE579003CC315 /* RolePlayingGoop.xcdatamodeld in Sources */,
 				CE7EDC471C1C983100DF736D /* Player.swift in Sources */,
