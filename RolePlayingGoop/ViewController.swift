@@ -34,6 +34,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func attackButtonTapped(sender: AnyObject) {
+        
+        if !enemy.isAlive {
+            // Only attack while enemy is alive
+            return
+        }
+        
         if enemy.attemptAttack(player.attackPower) {
             printLabel.text = "Attacked \(enemy.type) for \(player.attackPower) HP"
         } else {
@@ -41,6 +47,7 @@ class ViewController: UIViewController {
         }
         
         if let loot = enemy.dropLoot() {
+            player.addItemToInventory(loot)
             dropMessage = "\(player.name) found \(loot)"
             chestButton.hidden = false
         }

@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="width" secondItem="Ndc-xM-Pts" secondAttribute="height" multiplier="768:164" id="CY6-Qy-zey"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-uy-hgh">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-uy-hgh">
                                 <rect key="frame" x="345" y="360" width="111" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lOu-uy-hgh" secondAttribute="height" multiplier="393:440" id="Wvl-Py-g0f"/>
@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="width" secondItem="xfG-0i-ejU" secondAttribute="height" multiplier="550:83" id="9sw-mx-n1a"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player attacked wild Kimara!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b35-Lb-JjI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press the attack button to attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b35-Lb-JjI">
                                 <rect key="frame" x="53" y="49" width="495" height="25"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" red="0.99215686270000003" green="0.71372549019999998" blue="0.098039215690000001" alpha="1" colorSpace="calibratedRGB"/>
